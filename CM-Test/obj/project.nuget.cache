@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "98LzI0TG2RQkD9H2MjIoSws1pdHUUWefAPdHaLle41XOCifUe1Y7N1n0C/PxlfVDHhtNG4/gy1fFkYDYegfX0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nares\\Desktop\\CM-SMS-Test\\CM-Test\\CM-Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nares\\.nuget\\packages\\cm.text\\2.6.0\\cm.text.2.6.0.nupkg.sha512",
+    "C:\\Users\\Nares\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "C:\\Users\\Nares\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Nares\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Nares\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nares\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nares\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nares\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

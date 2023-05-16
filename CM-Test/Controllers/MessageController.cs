@@ -18,9 +18,17 @@ namespace CM_Test.Controllers
         }
 
         [HttpPost]
-        public async Task<HttpStatusCode> PostMessage(MessageData messageData)
+        public async Task<IActionResult> PostMessage(MessageData messageData)
         {
-            return await _messageRepository.PostMessage(messageData);
+            HttpStatusCode statusCode = await _messageRepository.PostMessage(messageData);
+            if (statusCode == HttpStatusCode.OK)
+            {
+                return Ok();
+            }
+            else
+            {
+                return StatusCode((int)statusCode);
+            }
         }
     }
 }

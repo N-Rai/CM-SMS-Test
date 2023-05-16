@@ -1,2 +1,2 @@
 # CM_Test
-A service that will send automated SMS messages to a user
+A service that will send automated SMS messages to a user using CM.com platform

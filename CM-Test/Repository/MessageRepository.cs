@@ -11,10 +11,10 @@ namespace CM_Test.Repository
         {
             _httpClient = httpClient;
         }
-        public async Task<HttpStatusCode> PostMessage(MessageData messageData)
+        public async Task<HttpStatusCode> SendMessage(MessageData messageData)
         {
-            string apiWrl = "https://gw.cmtelecom.com/v1.0/message";
-            HttpResponseMessage respone = await _httpClient.PostAsJsonAsync(apiWrl, messageData);
+            string CMapiUrl = "https://gw.cmtelecom.com/v1.0/message";
+            HttpResponseMessage respone = await _httpClient.PostAsJsonAsync(CMapiUrl, messageData);
             return respone.StatusCode;
         }
     }
